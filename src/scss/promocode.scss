@@ -1,0 +1,38 @@
+.formPromo {
+  width: 100%;
+
+  &__field {
+    position: relative;
+    display: block;
+  }
+
+  &__input {
+    width: 100%;
+    padding: 10px 110px 10px 10px;
+    box-sizing: border-box;
+    border: 1px solid $color-gray-border;
+    font-size: 13px;
+    line-height: 16px;
+    background: $color-white;
+    color: $color-gray2;
+    &:focus {
+      outline: none;
+    }
+  }
+
+  &__submit {
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 100px;
+    padding: 10px;
+    font-size: 13px;
+    line-height: 16px;
+    border: 1px solid $color-blue;
+    box-sizing: border-box;
+    text-align: center;
+    background: $color-blue;
+    color: $color-white;
+    cursor: pointer;
+  }
+}

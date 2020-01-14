@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+   <link rel="shortcut icon" href="https://static.tildacdn.com/tild3932-3739-4566-a539-643536386361/favicon.ico" type="image/x-icon">
+   <link rel="stylesheet" href="css/style.css">
+   <title>Оформление заказа | Omni.sale</title>
+</head>
+<body>
+  <header>
+  </header>
+<br />
+  <section>
+  </section>
+  <main>
+
+      <div class="title">
+        <h1 class="title__text">Оформление заказа</h1>
+      </div>
+
+    <section class="checkout">
+
+      <section class="basket">
+
+        <div class="basket-info">
+          <div class="basket-info__item">
+            <span>Товар</span>
+          </div>
+          <div class="basket-info__item">
+            <span>Цена</span>
+          </div>
+          <div class="basket-info__item">
+            <span>Кол-во</span>
+          </div>
+          <div class="basket-info__item">
+            <span>Стоимость</span>
+          </div>
+          <div class="basket-info__item"></div>
+        </div>
+
+        <div class="basket-product-list">
+
+          <div class="basket-product-item product">
+            <div at class="basket-product-item__preview-wrapper">
+              <picture class="basket-product-item__preview">
+                <img class="basket-product-item__img" src="img/smart-candy-cstg270l-1-07.png" />
+              </picture>
+              <div class="basket-product-item__info-wrapper">
+                <div class="basket-product-item__title"></div>
+                <div class="basket-product-item__article">
+                  Артикул: </div>
+              </div>
+            </div>
+            <div class="basket-product-item__price">
+              <p class="basket-product-item__price-value"> ₽</p>
+              <span class="basket-product-item__price-old"> ₽</span>
+            </div>
+            <div class="basket-product-item__quantity">
+              <i class="quantity_minus icon icon--minus"></i>
+              <input class="basket-product-item__quantity-input" name="quantity_input" type="number" size="2" min="1" max="10" value="2">
+              <i class="quantity_plus icon icon--plus"></i>
+            </div>
+            <div class="basket-product-item__cost">
+              <p class="basket-product-item__cost-value">45 980 ₽</p>
+            </div>
+            <div class="basket-product-item__delete">
+              <i class="delete icon icon--delete"></i>
+            </div>
+          </div>
+
+          <div class="basket-product-item product1">
+            <div at class="basket-product-item__preview-wrapper">
+              <picture class="basket-product-item__preview">
+                <img class="basket-product-item__img" src="img/candy-aquamatic-tempo-aqua-135d2-07.png" />
+              </picture>
+              <div class="basket-product-item__info-wrapper">
+                <div class="basket-product-item__title">
+                  Стиральная машина под раковину Candy Aquamatic Tempo AQUA 135D2-07
+                </div>
+                <div class="basket-product-item__article">
+                  Артикул: <span class="basket-product-item__article-number">31007818</span>
+                </div>
+              </div>
+            </div>
+            <div class="basket-product-item__price">
+              <span class="basket-product-item__price-value">19 490 ₽</span>
+              <span class="basket-product-item__price-old hide">28 990 ₽</span>
+            </div>
+
+            <div class="basket-product-item__quantity">
+              <i class="quantity_minus icon icon--minus"></i>
+              <input class="basket-product-item__quantity-input" name="quantity_input" type="number" size="2" min="1" max="10" value="1">
+              <i class="quantity_plus icon icon--plus"></i>
+            </div>
+
+            <div class="basket-product-item__cost">
+              <span class="basket-product-item__cost-value">19 490 ₽</span>
+            </div>
+            <div class="basket-product-item__delete">
+              <i class="delete icon icon--delete"></i>
+            </div>
+          </div>
+
+        </div>
+
+      </section>
+
+      <section class="order">
+
+        <div class="order-title">
+          <h2 class="order-title__text">Ваш заказ</h2>
+        </div>
+
+        <div class="order-product-list">
+
+          <div class="order-product-item orders">
+            <div class="order-product-item__info-wrapper">
+              <div class="order-product-item__title">
+                Стиральная машина с вертикальной загрузкой Smart Candy CSTG270L/1-07
+              </div>
+              <div class="order-product-item__article">
+                Артикул: <span class="order-product-item__article-number">31007743</span>
+              </div>
+            </div>
+            <div class="order-product-item__count">
+              <p class="order-product-item__cost"><span>45 980</span> ₽</p>
+              <span class="order-product-item__value">1 шт</span>
+            </div>
+          </div>
+
+          <div class="order-product-item orders1">
+            <div class="order-product-item__info-wrapper">
+              <div class="order-product-item__title">
+                Стиральная машина под раковину Candy Aquamatic Tempo AQUA 135D2-07
+              </div>
+              <div class="order-product-item__article">
+                Артикул: <span class="order-product-item__article-number">31007743</span>
+              </div>
+            </div>
+            <div class="order-product-item__count">
+              <p class="order-product-item__cost"><span>19 490</span> ₽</p>
+              <span class="order-product-item__value">1 шт</span>
+            </div>
+          </div>
+
+        </div>
+
+        <div class="order-items">
+
+          <div class="order-item">
+            <form class="formPromo" action="">
+              <div class="formPromo__field fieldInput">
+                <input class="formPromo__input" type="text" placeholder="Промокод">
+                <div type="submit" class="formPromo__submit">Применить</div>
+              </div>
+            </form>
+          </div>
+
+          <div class="discount">
+            <div class="discount-no"></div>
+            <div class="order-item discount-yes hide">
+              <span class="order-item__text">Скидка</span>
+              <p class="order-item__number order-item__number--red">- <span class="discount-number">12 000</span> ₽</p>
+            </div>
+          </div>
+
+          <div class="order-item">
+            <span class="order-item__text">Доставка</span>
+            <span class="order-item__number">+ 490 ₽</span>
+          </div>
+
+          <div class="order-item order-item--total">
+            <span class="order-item__text">Итого:</span>
+            <span class="order-item__number"><span class="total">65960</span> ₽</span>
+          </div>
+
+          <div class="order-item">
+            <div class="button">Подтвердить заказ</div>
+          </div>
+        </div>
+
+      </section>
+
+    </section>
+
+  </main>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
